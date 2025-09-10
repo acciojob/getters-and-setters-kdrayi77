@@ -28,6 +28,10 @@ class Teacher extends Person {
 		console.log (this.name+" is teaching");
 	}
 }
+ 
+window.Person = Person;
+window.Student = Student;
+window.Teacher = Teacher;
 const person = new Person("John", 25);
 console.log(person.nameofp);   
 person.age = 30;   
@@ -36,6 +40,3 @@ const student = new Student("Alice", 22);
 student.study();   
 const teacher = new Teacher("Bob", 40);
 teacher.teach();   
-window.Person = Person;
-window.Student = Student;
-window.Teacher = Teacher;
