@@ -1,5 +1,4 @@
-//complete this code
-//complete this code
+
 class Person {
 	constructor(name,age)
 	{
